@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	:root {
+		--font-sans: 'IBM Plex Sans Thai';
+		--font-looped: 'IBM Plex Sans Thai Looped';
+
+		--font-size-h1: 2.5rem;
+		--font-size-h2: 2rem;
+		--font-size-h3: 1.5rem;
+		--font-size-h4: 1.25rem;
+		--font-size-h5: 1rem;
+		--font-size-h6: 0.875rem;
+		--font-size-tiny: 0.75rem;
+		--font-size-body1: 1rem;
+		--font-size-body2: 0.875rem;
+		--font-size-body3: 0.75rem;
+
+		--line-height-h1: 3.5rem;
+		--line-height-h2: 2.75rem;
+		--line-height-h3: 2rem;
+		--line-height-h4: 1.65rem;
+		--line-height-h5: 1.5rem;
+		--line-height-h6: 1.25rem;
+		--line-height-tiny: 1.125rem;
+		--line-height-body1: 1.5rem;
+		--line-height-body2: 1.25rem;
+		--line-height-body3: 1.125rem;
+
+		--color-primary-dark: #618264;
+		--color-primary-default: #79ac78;
+		--color-primary-light: #b0d9b1;
+		--color-primary-background: #d0e7d2;
+
+		--color-secondary-dark: #674636;
+		--color-secondary-default: #AAB396;
+		--color-secondary-light: #F7EED3;
+		--color-secondary-background: #FFF8E8;
+	}
+}

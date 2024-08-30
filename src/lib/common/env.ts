@@ -1,0 +1,1 @@
+export const VITE_GITHUB_LINK = import.meta.env.VITE_GITHUB_LINK

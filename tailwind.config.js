@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from 'tailwindcss/defaultTheme';
-import { b } from 'vitest/dist/chunks/suite.CcK46U-P.js';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],

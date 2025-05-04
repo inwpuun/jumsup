@@ -1,13 +1,16 @@
 <script>
-	import { Cube } from 'phosphor-svelte';
+
+	import Test from '$lib/components/library/test.svelte';
+// import WordCard from '$lib/components/library/wordCard.svelte';
+
+	const carddetails = {
+		id: '1',
+		title: 'Test',
+		imageUrl: 'https://source.unsplash.com/random/800x600'
+	};
 </script>
 
-hello
-<div class="flex gap-4">
-	<Cube size={100} weight="duotone" />
-	<Cube size={100} weight="bold" />
-	<Cube size={100} weight="fill" />
-	<Cube size={100} weight="light" />
-	<Cube size={100} weight="regular" />
-	<Cube size={100} weight="thin" />
+<div class="flex gap-4 w-full h-full justify-center items-center">
+	<!-- <WordCard /> -->
+	<Test card={carddetails} />
 </div>
